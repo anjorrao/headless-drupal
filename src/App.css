@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  padding: 3rem 0;
+  background-image: linear-gradient(to right, #28313b, #485461);
+}
+h1 {
+  color: var(--text-color);
+  margin: 3rem;
+}
+input {
+  width: 50%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.employees {
+  width: 60%;
+  text-align: left;
+}
+.table {
+  width: 100%;
+  border: 1px solid #fff;
+}
+.table th {
+  font-weight: bold;
+}
+.table td,
+.table th {
+  padding: 1rem;
+  color: #fff;
+  border: 1px solid;
+}
+.white-text {
+  color: #fff;
+}
